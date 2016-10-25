@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>图片浏览器</title>
+	<meta charset="utf-8">
+	<link href="css/waves.css" type="text/css" rel="stylesheet" />
+    <style>
+        ul{
+            width:480px;
+            margin:100px auto;
+        }
+        li{
+            list-style:none;
+            width:150px;
+            height:150px;
+            overflow:hidden;
+            float:left;
+            border-radius:5px;
+            margin:5px;
+        }
+        img{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+	<ul>
+        <li class="waves-effect waves-light"><img src="images/001.jpg" alt=""></li>
+        <li class="waves-effect waves-light"><img src="images/002.jpg" alt=""></li>
+        <li class="waves-effect waves-light"><img src="images/003.jpg" alt=""></li>
+        <li class="waves-effect waves-light"><img src="images/004.jpg" alt=""></li>
+        <li class="waves-effect waves-light"><img src="images/005.jpg" alt=""></li>
+        <li class="waves-effect waves-light"><img src="images/006.jpg" alt=""></li>
+        <li class="waves-effect waves-light"><img src="images/007.jpg" alt=""></li>
+        <li class="waves-effect waves-light"><img src="images/008.jpg" alt=""></li>
+        <li class="waves-effect"><img src="images/009.jpg" alt=""></li>
+    </ul>
+
+    <script src="js/waves.min.js"></script>
+    <script>
+        ///点击波纹特效
+        document.ready = function(){
+            Waves.init(); 
+        }()
+    </script>
+</body>
+</html>
